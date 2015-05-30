@@ -10,6 +10,5 @@ public class Problems {
 		return sum;
 	}
 	
-	public int Two_
-	
+
 }
