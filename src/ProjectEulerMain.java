@@ -16,6 +16,7 @@ public class ProjectEulerMain {
 		printSoln(solutionList);
 	}
 	
+	// Prints the solutions
 	public static void printSoln(ArrayList<Integer> soln) {
 		for (int i = 0; i < soln.size(); i++) {
 			System.out.println("The solution to problem number " + (i+1) + " is " + soln.get(i) + ".");
