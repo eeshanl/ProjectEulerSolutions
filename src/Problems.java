@@ -5,7 +5,7 @@ public class Problems {
 	 * 
 	 * Find the sum of all the multiples of 3 or 5 below any number X
 	 */
-	public int One(int x) {
+	public int one(int x) {
 		int sum = 0;
 		for (int i = 0; i < x; i++) {
 			if (i % 3 == 0 || i % 5 == 0) {
@@ -20,17 +20,27 @@ public class Problems {
 	 * 
 	 * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 	 */
-	public int Two() {
+	public int two() {
 		int sum = 0;
 		int x = 1;
 		int y = 2;
 		while (y < 4000000) {
-			if (x % 2 == 0) sum += x;
-			if (y % 2 == 0) sum += y;
+			if (x % 2 == 0)
+				sum += x;
+			if (y % 2 == 0)
+				sum += y;
 			int temp = x + y;
 			x = temp;
 			y = temp + y;
 		}
 		return sum;
+	}
+	
+	/* The prime factors of 13195 are 5, 7, 13 and 29.
+	 * 
+	 * What is the largest prime factor of the number 600851475143 ?
+	 */
+	public int three(int x) {
+		return 0;
 	}
 }

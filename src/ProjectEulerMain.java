@@ -27,8 +27,9 @@ public class ProjectEulerMain {
 	
 	// Adds solutions to the solution list
 	public static void addSolns(Problems problems, ArrayList<Integer> solutionList) {
-		solutionList.add(problems.One(1000));
-		solutionList.add(problems.Two());
+		solutionList.add(problems.one(1000));
+		solutionList.add(problems.two());
+		solutionList.add(problems.three(0));
 	}
 
 }
