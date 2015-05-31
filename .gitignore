@@ -3,3 +3,6 @@
 /bin/
 .DS*
 *.sh
+three
+three.o
+three.d*

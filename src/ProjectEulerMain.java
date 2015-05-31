@@ -29,7 +29,7 @@ public class ProjectEulerMain {
 	public static void addSolns(Problems problems, ArrayList<Integer> solutionList) {
 		solutionList.add(problems.one(1000));
 		solutionList.add(problems.two());
-		solutionList.add(problems.three(0));
+		solutionList.add(problems.three());
 	}
 
 }

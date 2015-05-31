@@ -40,7 +40,8 @@ public class Problems {
 	 * 
 	 * What is the largest prime factor of the number 600851475143 ?
 	 */
-	public int three(int x) {
+	public int three() {
+		// see three.c file for solution
 		return 0;
 	}
 }
